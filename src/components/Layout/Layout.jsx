@@ -7,7 +7,7 @@ export default function Layout({ children }) {
   return (
     <>
       <Header />
-      {children}
+      <main className="min-h-[calc(100vh-96px-96px)] ">{children}</main>
       <Footer />
     </>
   );

@@ -4,7 +4,7 @@
 import "./App.css";
 
 function App() {
-  return <div className="min-h-[calc(100vh-96px-96px)] "> APP</div>;
+  return <div> APP</div>;
 }
 
 export default App;
