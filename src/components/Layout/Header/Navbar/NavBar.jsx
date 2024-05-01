@@ -18,15 +18,15 @@ export default function NavBar() {
         <Link to="Experience" className="hover:text-blue-400 capitalize">
           Experience
         </Link>
-        <Link to="skill" className="hover:text-blue-400 capitalize">
-          Skill
+        <Link to="projets" className="hover:text-blue-400 capitalize">
+          Projets
         </Link>
         <Link to="contact" className="hover:text-blue-400 capitalize">
           Contact
         </Link>
       </div>
       {nav && (
-        <div className="flex flex-col justify-center items-center gap-10 absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to bg-gray-800">
+        <div className=" z-10 flex flex-col justify-center items-center gap-10 fixed top-0 left-0 w-full h-screen bg-gradient-to-b from-black to bg-gray-800">
           <Link
             to="/"
             className="hover:text-blue-400 capitalize"
@@ -49,11 +49,11 @@ export default function NavBar() {
             Experience
           </Link>
           <Link
-            to="skill"
+            to="projets"
             className="hover:text-blue-400 capitalize "
             onClick={() => setNav(!nav)}
           >
-            Skill
+            Projets
           </Link>
           <Link
             to="contact"
