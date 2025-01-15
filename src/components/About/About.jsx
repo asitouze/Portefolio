@@ -10,8 +10,7 @@ export default function About() {
       </div>
       <p className="text-xl mt-20">
         Bonjour et bienvenue sur mon portfolio! Je suis passionné par le
-        développement web et je suis actuellement en formation pour devenir
-        développeur web junior. Mon parcours dans ce domaine a été passionnant
+        développement web. Mon parcours dans ce domaine a été passionnant
         jusqu&apos;à présent, et j&apos;ai hâte de continuer à apprendre et à
         grandir en tant que professionnel du web. En dehors de ma formation, je
         suis un grand amateur de mangas/animes, un joueur de basket passionné et

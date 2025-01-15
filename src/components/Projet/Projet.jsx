@@ -23,6 +23,7 @@ export default function Projet() {
       title: "The Lab",
       description: "Projet 3 React fullStack",
       imgUrl: projImg3,
+      link: "https://thelab-academy.fr/",
     },
   ];
 
@@ -51,13 +52,17 @@ export default function Projet() {
             onMouseEnter={() => handleMouseEnter(projets)}
             onMouseLeave={handleMouseLeave}
           >
-            <img
-              src={projets.imgUrl}
-              alt="html"
-              className={`w-[450px] h-auto mx-auto rounded-lg transition duration-500 transform ${
-                hoveredAtelier === projets.id ? "filter brightness-[0.25]" : ""
-              }`}
-            />
+            <a href={projets.link ? projets.link : "#"}>
+              <img
+                src={projets.imgUrl}
+                alt="html"
+                className={`w-[450px] h-auto mx-auto rounded-lg transition duration-500 transform ${
+                  hoveredAtelier === projets.id
+                    ? "filter brightness-[0.25]"
+                    : ""
+                }`}
+              />
+            </a>
             {hoveredAtelier === projets.id && (
               <div className="absolute">
                 <p className="text-3xl font-bold">{projets.title}</p>
