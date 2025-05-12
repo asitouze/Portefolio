@@ -3,7 +3,7 @@
 // import viteLogo from '/vite.svg'
 import { useNavigate } from "react-router-dom";
 import "./App.css";
-import me from "./assets/me.jpg";
+import me from "./assets/anim.png";
 import next from "./assets/vector/r-arrow.svg";
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
           Je suis un développeur web
         </h1>
         <p className="text-gray-500 py-4 max-w-md">
-          Je m&apos;appelle Aurélien, j&apos;ai 20 ans et je suis passionné par
+          Je m&apos;appelle Aurélien, j&apos;ai 22 ans et je suis passionné par
           le développement web. En tant que développeur fullstack, je navigue
           avec aisance à travers les langages et les technologies. Ma palette de
           compétences comprend HTML, CSS, Node.js, Tailwind et React, que je
